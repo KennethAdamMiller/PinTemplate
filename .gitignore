@@ -1,13 +1,12 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+IA32/*
+INTEL64/*
+bld32/CMakeFiles/*
+bld32/src/*
+bld32/cmake_install.cmake
+bld32/CMakeCache.txt
+bld32/Makefile
+bld64/CMakeFiles/*
+bld64/src/*
+bld64/cmake_install.cmake
+bld64/CMakeCache.txt
+bld64/Makefile

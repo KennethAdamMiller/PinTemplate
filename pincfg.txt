@@ -1,0 +1,15 @@
+# TODO: fix the Pin kit path on your machine.
+SET(PIN_BASE C:/pin/pin-2.13-61206-msvc10-windows/)
+# TODO: replace 'fastpin' with the binary name you want.
+SET(OUTOUT_BIN_BASE fastpin)
+
+# TODO: Default output directory.
+SET(OUTPUT_DIR_32 IA32)
+SET(OUTPUT_DIR_64 INTEL64)
+
+# Default postfix of 32bit and 64bit target.
+SET(OUTPUT_BIN_32 ${OUTOUT_BIN_BASE}32)
+SET(OUTPUT_BIN_64 ${OUTOUT_BIN_BASE}64)
+
+SET(OUTPUT_BIN ${OUTPUT_BIN_32})
+SET(OUTPUT_DIR ${OUTPUT_DIR_32})
