@@ -1,0 +1,13 @@
+IA32/*
+INTEL64/*
+workspace/*
+bld32/CMakeFiles/*
+bld32/src/*
+bld32/cmake_install.cmake
+bld32/CMakeCache.txt
+bld32/Makefile
+bld64/CMakeFiles/*
+bld64/src/*
+bld64/cmake_install.cmake
+bld64/CMakeCache.txt
+bld64/Makefile
