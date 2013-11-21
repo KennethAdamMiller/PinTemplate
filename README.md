@@ -49,18 +49,6 @@ Assuming that compiling with Windows SDK 7.1.
 
 4. Use 'NMake' to build the target.
 
-##Misc.
-
-###Use ConEmu to run different bld tool quickly.
-
-[ConEmu](https://code.google.com/p/conemu-maximus5/) allows you customize hotkey to execute macros. Here's my setting:
-```
-	Assign to Shift+F5:
-		Shell("","cmd.exe","/E:ON /V:ON /K \"C:\Program Files\Microsoft SDKs\Windows\v7.1\Bin\SetEnv.cmd\" /x86 /xp")
-	Assign to Shift+F6:
-		Shell("","cmd.exe","/E:ON /V:ON /K \"C:\Program Files\Microsoft SDKs\Windows\v7.1\Bin\SetEnv.cmd\" /x64 /xp")
-```
-
 ## Changelog
 
 2013.11.20
